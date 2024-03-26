@@ -3,7 +3,7 @@ body {
   font-size: 15px;
   letter-spacing: .05em;
   color: #333;
-  background-color: #eeece8
+  background-color: #eeece8;
 }
 
 a {
@@ -73,7 +73,7 @@ img {
 ヘッダー
 ---------------------------------*/
 .header {
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 1;
   width: 100%;
@@ -406,10 +406,6 @@ img {
   }
 
   /* レイアウト */
-  .wrapper {
-    padding-top: 57px;
-  }
-
   .section {
     padding: 60px 0;
   }
